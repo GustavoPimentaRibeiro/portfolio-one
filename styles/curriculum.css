@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+.apresentacao__conteudo__lista {
+  display: flex;
+  flex-direction: column;
+}
+
+.apresentacao__conteudo__lista > p {
+  margin-bottom: 10px;
+}

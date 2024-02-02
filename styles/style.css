@@ -101,6 +101,7 @@ body {
 
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 16px;
 
   text-align: center;
@@ -161,5 +162,25 @@ body {
 
   .apresentacao__imagem__perfil {
     width: 50%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cabecalho {
+    padding: 10%;
+  }
+
+  .cabecalho__menu {
+    gap: 15%;
+  }
+
+  .cabecalho__menu > a {
+    font-size: 20px;
+  }
+
+  .apresentacao__links__link {
+    width: 70%;
+
+    font-size: 22px;
   }
 }
